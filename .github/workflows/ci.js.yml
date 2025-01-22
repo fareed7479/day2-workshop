@@ -29,5 +29,5 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }} 
       - name: Build and push Docker image 
         run: | 
-          docker build -t day2-workshop:latest . 
-          docker push day2-workshop:latest
+          docker build -t 22k61a05f4/day2-workshop:latest . 
+          docker push 22k61a05f4/day2-workshop:latest
